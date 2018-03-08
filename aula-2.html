@@ -2,11 +2,17 @@
 	<head>
 		<meta charset="UFT-8">
 		<title>Programação Comercial</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+		<script src="js/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+		<script src="js/funcoes.js"></script>
+	</head>
 	
 	<body>
 		<div>
@@ -30,7 +36,7 @@
 		
 		<div class="input-group mb-3">
 			<div class="input-group-prepend">
-				<span class="input-group-text" id="icone">@</span>
+				<span class="input-group-text" id="icone"></span>
 					<i class="glyphicon glyphicon-user"></i>
 				</span>
 				<input type="text" class="form-control" placeholder="Usermane">
@@ -72,39 +78,64 @@
 		  <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
 		</div>
 
-<h2>Panels with Contextual Classes</h2>
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-heading">Panel with panel-default class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
+		<h2>Panels with Contextual Classes</h2>
+		<div class="panel-group">
+			<div class="panel panel-default">
+			  <div class="panel-heading">Panel with panel-default class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
 
-    <div class="panel panel-primary">
-      <div class="panel-heading">Panel with panel-primary class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
+			<div class="panel panel-primary">
+			  <div class="panel-heading">Panel with panel-primary class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
 
-    <div class="panel panel-success">
-      <div class="panel-heading">Panel with panel-success class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
+			<div class="panel panel-success">
+			  <div class="panel-heading">Panel with panel-success class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
 
-    <div class="panel panel-info">
-      <div class="panel-heading">Panel with panel-info class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
+			<div class="panel panel-info">
+			  <div class="panel-heading">Panel with panel-info class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
 
-    <div class="panel panel-warning">
-      <div class="panel-heading">Panel with panel-warning class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
+			<div class="panel panel-warning">
+			  <div class="panel-heading">Panel with panel-warning class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
 
-    <div class="panel panel-danger">
-      <div class="panel-heading">Panel with panel-danger class</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
-  </div>
+			<div class="panel panel-danger">
+			  <div class="panel-heading">Panel with panel-danger class</div>
+			  <div class="panel-body">Panel Content</div>
+			</div>
+		</div>
 		
+		<div class="alert alert-danger" role="alert">
+			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+			<span class="sr-only">Erro:</span> Endereço de Email inválido.
+			  This is a primary alert—check it out!
+		</div>
+		<div class="card" id="area-01">
+			Manipulando a DOM com jquery - Teste 01
+		</div>
+
+		<div class="card" id="area-02">
+		  Manipulando a DOM com jquery - Teste 02
+		</div>
+
+		<button type="button" class="btn btn-info" onclick="minhaFuncao1()">
+		  Executar ação 1
+		</button>
+
+		<button type="button" class="btn btn-danger" onclick="minhaFuncao2()">
+		  Executar ação 2
+		</button>
+
+		<button type="button" class="btn btn-sucesss" onclick="minhaFuncao3()">
+		  Executar ação 3
+		</button>
+	
 		
 		
 		
